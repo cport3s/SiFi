@@ -4,7 +4,7 @@ from dash.dependencies import Input, Output, State
 from dash.exceptions import PreventUpdate
 
 app = dash.Dash(__name__, title='RAN Dashboard')
-#server = app.server
+server = app.server
 
 app.layout = html.Div(
     children=[
